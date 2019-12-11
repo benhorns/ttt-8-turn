@@ -10,7 +10,8 @@ end
     user_input.to_i - 1
   end
   def turn(board)
-    until input = 5
     puts "Please enter 1-9:"
+    until input = 5
+
   end
 end
