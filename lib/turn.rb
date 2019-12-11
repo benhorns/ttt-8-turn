@@ -14,6 +14,5 @@ end
   def turn(board)
 
     puts "Please enter 1-9:"
-    until input >=0 || input <= 8
-end
+
   end
