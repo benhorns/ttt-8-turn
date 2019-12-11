@@ -5,6 +5,7 @@ def display_board (board)
   puts "-----------"
   puts "   |   |   "
 end
+input = user_input
 until input == 5
 
   def input_to_index(user_input)
