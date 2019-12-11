@@ -5,7 +5,7 @@ require_relative '../lib/turn'
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
-input = gets.strip
+user_input = gets.strip
 position = input_to_index(input)
 display_board(board)
 turn(board)
